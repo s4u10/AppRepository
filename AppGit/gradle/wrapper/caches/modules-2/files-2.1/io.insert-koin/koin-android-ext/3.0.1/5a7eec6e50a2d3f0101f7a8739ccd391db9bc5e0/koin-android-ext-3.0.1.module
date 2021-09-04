@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.insert-koin",
+    "module": "koin-android-ext",
+    "version": "3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5nymvejb7vgjtoflzdblcoqigy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core-ext",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-android-ext-3.0.1.aar",
+          "url": "koin-android-ext-3.0.1.aar",
+          "size": 25472,
+          "sha512": "cb48458be90178f07780cac45da5233f1ba13b132005b84ec7d351f1a2afd75e8c0b0c4d36b1f6e9fb31eb731b71e03d25c6b9b1c1f15261c4f77bc62cc89fc4",
+          "sha256": "127207ee673704fae399ded53e84165b9465e8ed8602e93df1265b8bd7a47993",
+          "sha1": "49faf0220a2128449d0a564d7cff22f377a32bd5",
+          "md5": "bebeeaad3694e73e14bf070bdcadff13"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core-ext",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "io.insert-koin",
+          "module": "koin-android",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-android-ext-3.0.1.aar",
+          "url": "koin-android-ext-3.0.1.aar",
+          "size": 25472,
+          "sha512": "cb48458be90178f07780cac45da5233f1ba13b132005b84ec7d351f1a2afd75e8c0b0c4d36b1f6e9fb31eb731b71e03d25c6b9b1c1f15261c4f77bc62cc89fc4",
+          "sha256": "127207ee673704fae399ded53e84165b9465e8ed8602e93df1265b8bd7a47993",
+          "sha1": "49faf0220a2128449d0a564d7cff22f377a32bd5",
+          "md5": "bebeeaad3694e73e14bf070bdcadff13"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+org.koin.android.ext.BuildConfig
+org.koin.androidx.experimental.dsl.ModuleExtKt
+org.koin.androidx.experimental.dsl.ModuleExtKt$viewModel$factory$1
+org.koin.androidx.experimental.dsl.ModuleExtKt$viewModel$factory$1$$special$$inlined$create$1
+org.koin.androidx.experimental.dsl.ModuleExtKt$viewModel$factory$1$$special$$inlined$create$2
+org.koin.androidx.experimental.dsl.ScopeSetExtKt
+org.koin.androidx.experimental.dsl.ScopeSetExtKt$viewModel$factory$1
+org.koin.androidx.experimental.dsl.ScopeSetExtKt$viewModel$factory$1$$special$$inlined$create$1
+org.koin.androidx.experimental.dsl.ScopeSetExtKt$viewModel$factory$1$$special$$inlined$create$2
